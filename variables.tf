@@ -54,7 +54,7 @@ variable "kafka_lag_exporter_container_resources" {
 
 variable "bootstrap_server" {
   type        = string
-  description = ""
+  description = "The bootstrap endpoint used by Kafka clients to connect to the Kafka cluster"
 }
 
 variable "cluster_id" {
