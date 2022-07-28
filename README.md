@@ -1,6 +1,6 @@
 ### Sample Usage
 
-```
+```hcl
 module "demo_observability" {
   source = "./modules/observability"
   bootstrap_server = module.demo_kafka.bootstrap_endpoint
